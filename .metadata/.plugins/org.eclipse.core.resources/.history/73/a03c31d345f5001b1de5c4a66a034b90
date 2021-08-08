@@ -1,0 +1,5 @@
+package com.sys4soft;
+
+public class Mulher extends GeraHumanos {
+	boolean usa_battom;
+}

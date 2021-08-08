@@ -1,0 +1,33 @@
+package com.sys4soft;
+
+import java.awt.Dimension;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class frmMenu extends JFrame {
+
+	JButton cmd1;
+	
+	public frmMenu(){
+		super("Menu");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		// definir JPanel
+		JPanel painel = new JPanel();
+		painel.setPreferredSize(new Dimension(600,400));
+		add(painel);
+		pack();
+		
+		// centralizar formulário
+		setLocationRelativeTo(null);
+
+		// botão
+		cmd1 = new JButton("Clique aqui!");
+		
+		setVisible(true);
+
+	}
+	
+}

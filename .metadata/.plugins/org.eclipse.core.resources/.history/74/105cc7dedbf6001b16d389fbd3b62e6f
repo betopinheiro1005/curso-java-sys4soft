@@ -1,0 +1,23 @@
+package com.sys4soft;
+
+public class OrdenarArrayInt {
+
+	public static void main(String[] args) {
+
+		// array numerico
+		int[] numeros = {
+				2, 5, 4, 9, 7, 3, 8, 1, 6
+		};
+		
+		MetodoOrdenarArrayInt.OrdemAsc(numeros);
+		
+		for(int numero:numeros){
+			System.out.println(numero);
+		}
+
+		System.out.println("================");
+		
+		
+	}
+
+}

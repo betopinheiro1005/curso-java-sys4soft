@@ -1,0 +1,17 @@
+package com.sys4soft;
+
+public class Humano {
+
+	public String nome;
+	public int idade;
+	
+	public Humano(){
+		System.out.println("Humano");
+	}
+	
+	public void ApresentarHumano(){
+		System.out.println("Nome: " + nome + "\n" + "Idade: " + idade);
+		
+	}
+	
+}

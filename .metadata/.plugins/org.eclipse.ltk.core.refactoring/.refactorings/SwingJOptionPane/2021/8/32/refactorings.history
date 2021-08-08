@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.sys4soft.SwingjOptionPane&apos; to &apos;SwingJOptionPane&apos;&#x0D;&#x0A;- Original project: &apos;SwingJOptionPane&apos;&#x0D;&#x0A;- Original element: &apos;com.sys4soft.SwingjOptionPane&apos;&#x0D;&#x0A;- Renamed element: &apos;com.sys4soft.SwingJOptionPane&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SwingjOptionPane&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.sys4soft{SwingjOptionPane.java[SwingjOptionPane" matchStrategy="1" name="SwingJOptionPane" qualified="false" references="true" similarDeclarations="false" stamp="1628316697461" textual="false" version="1.0"/>
+</session>

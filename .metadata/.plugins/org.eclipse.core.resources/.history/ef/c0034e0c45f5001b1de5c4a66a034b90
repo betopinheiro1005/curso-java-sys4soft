@@ -1,0 +1,10 @@
+package com.sys4soft;
+
+public class GeraHumanos {
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

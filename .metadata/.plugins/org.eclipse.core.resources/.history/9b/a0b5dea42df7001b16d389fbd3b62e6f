@@ -1,0 +1,10 @@
+package com.sys4soft;
+
+public class CriandoArquivo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

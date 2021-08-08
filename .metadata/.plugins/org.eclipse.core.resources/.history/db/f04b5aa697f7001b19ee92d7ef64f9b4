@@ -1,0 +1,17 @@
+package com.sys4soft;
+
+import javax.swing.JFrame;
+
+public class SwingJLabel {
+
+	public static void main(String[] args) {
+
+		// criar a janela JFrame
+		JFrame janela = new JFrame();
+		janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		janela.setVisible(true);
+		
+		
+	}
+
+}

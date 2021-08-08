@@ -1,0 +1,9 @@
+package com.sys4soft;
+
+public class ProjetoSwing_JCheckBox {
+
+	public static void main(String[] args) {
+		frmFormulario form = new frmFormulario();
+	}
+
+}

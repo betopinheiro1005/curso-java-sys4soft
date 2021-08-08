@@ -1,0 +1,24 @@
+package com.sys4soft;
+
+public class Mulher extends Humano {
+	boolean usa_battom;
+	
+	public void usa_battom(boolean usa_battom){
+		
+		String resposta;
+		
+		if(usa_battom){
+			resposta = "sim";
+		} else {
+			resposta = "não";
+		}
+		
+		System.out.println("Usa battom: " + resposta + "\n");
+		
+		
+		
+		System.out.println("Usa battom: " + usa_battom + "\n");
+	}
+	
+	
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;If&apos; to &apos;CondicaoIf&apos;&#x0D;&#x0A;- Original project: &apos;MecanismosDecisao&apos;&#x0D;&#x0A;- Original element: &apos;If&apos;&#x0D;&#x0A;- Renamed element: &apos;CondicaoIf&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;If&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{If.java[If" matchStrategy="1" name="CondicaoIf" qualified="false" references="true" similarDeclarations="false" stamp="1628014187829" textual="false" version="1.0"/>
+</session>

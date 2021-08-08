@@ -1,0 +1,13 @@
+package com.sys4soft;
+
+public class Overloading {
+
+	public void somar_tres_numeros(int num1, int num2, int num3){
+		System.out.println(num1 + num2 + num3);
+	}
+	
+	public void somar_tres_numeros(String mensagem){
+		 System.out.println(mensagem);
+	}
+	
+}

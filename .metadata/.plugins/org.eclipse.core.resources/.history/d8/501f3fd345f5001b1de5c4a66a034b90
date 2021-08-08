@@ -1,0 +1,5 @@
+package com.sys4soft;
+
+public class Homem extends GeraHumanos {
+	boolean tem_barba;
+}

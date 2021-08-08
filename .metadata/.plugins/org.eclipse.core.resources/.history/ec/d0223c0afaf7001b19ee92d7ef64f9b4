@@ -1,0 +1,71 @@
+package com.sys4soft;
+
+import java.awt.Dimension;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
+
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class frmFormulario extends JFrame {
+
+	JPanel painel;
+	JButton cmd;
+	ActionListener cmd_click;
+	JCheckBox check;
+	ItemListener check_selected;
+	
+	// construtor
+	public frmFormulario(){
+		super("Formulário de Testes - JCheckBox");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		// JPanel
+		painel = new JPanel();
+		painel.setPreferredSize(new Dimension(600,400));
+		painel.setLayout(null);
+		add(painel);
+		pack();
+		
+		// componente
+		check_selected = new ItemListener() {
+			@Override
+			public void itemStateChanged(ItemEvent arg0) {
+				
+			}
+		};
+		
+		check = new JCheckBox("Gravar tudo ao sair");
+		check.setBounds(50,50,200,30);
+		check.addItemListener(check_selected);
+		painel.add(check);
+		
+		// cmd
+		cmd_click = new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// código a executar no evento click
+				if(check.isSelected()){
+					check.setSelected(false);					
+				} else {
+					check.setSelected(true);
+				}
+			}
+		};
+		
+		// criar cmd
+		cmd = new JButton("Clique aqui");
+		cmd.setBounds(400, 350, 120, 30);
+		cmd.addActionListener(cmd_click);
+		painel.add(cmd);
+		
+		setLocationRelativeTo(null);
+		setVisible(true);
+		
+	}
+	
+}

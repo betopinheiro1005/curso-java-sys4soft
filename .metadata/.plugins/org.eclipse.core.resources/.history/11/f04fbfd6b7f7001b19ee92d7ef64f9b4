@@ -1,0 +1,15 @@
+package com.sys4soft;
+
+import javax.swing.JFrame;
+
+public class ButtonClicked {
+
+	public static void main(String[] args) {
+
+		// janela
+		JFrame janela = new JFrame("Evento");
+
+		
+	}
+
+}

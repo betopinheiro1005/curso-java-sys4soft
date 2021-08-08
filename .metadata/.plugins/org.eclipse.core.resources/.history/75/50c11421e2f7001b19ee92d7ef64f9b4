@@ -1,0 +1,30 @@
+package com.sys4soft;
+
+import java.awt.Dimension;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class frmMenu extends JFrame {
+	
+	public frmMenu(){
+		super("Menu");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		// definir JPanel
+		JPanel painel = new JPanel();
+		painel.setPreferredSize(new Dimension(500,300));
+		add(painel);
+		pack();
+		
+		// centralizar menu
+		setLocationRelativeTo(null);
+		
+		setVisible(true);
+		
+		// apresentar dimensões externa e interna do JFrame
+		
+		
+	}
+
+}

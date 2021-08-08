@@ -1,0 +1,14 @@
+package com.sys4soft;
+
+public class Socio {
+	String nome;
+	int idade;
+	String sexo;
+	boolean vip;
+	
+	// construtor da classe
+	public Socio(){
+		System.out.println("Novo sócio criado!");
+	}
+	
+}

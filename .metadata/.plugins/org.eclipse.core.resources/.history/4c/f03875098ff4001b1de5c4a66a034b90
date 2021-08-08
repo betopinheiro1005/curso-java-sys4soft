@@ -1,0 +1,9 @@
+package com.sys4soft;
+
+public class TestesOperadorTernario {
+
+	public static void main(String[] args) {
+
+	}
+
+}

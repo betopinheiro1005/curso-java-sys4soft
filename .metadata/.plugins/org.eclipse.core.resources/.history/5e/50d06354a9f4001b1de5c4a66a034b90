@@ -1,0 +1,9 @@
+package com.sys4soft;
+
+public class TestesWhile {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,7 @@
+package com.sys4soft;
+
+public class Humano {
+
+	public String nome;
+	public int idade;
+}

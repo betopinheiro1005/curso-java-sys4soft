@@ -1,0 +1,15 @@
+package com.sys4soft;
+
+public class MetodosParte1 {
+
+	public static void main(String[] args) {
+		String nome1 = "João";
+		String nome2 = "João";
+		
+		if(nome1.equals(nome2)){
+			System.out.println("os nomes são iguais!");
+		}
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.sys4soft;
+
+public class Homem extends Humano {
+	boolean tem_barba;
+}

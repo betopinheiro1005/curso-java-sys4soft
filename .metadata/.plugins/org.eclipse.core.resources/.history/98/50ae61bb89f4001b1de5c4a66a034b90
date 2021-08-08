@@ -1,0 +1,30 @@
+
+public class CondicaoIfElse {
+
+	public static void main(String[] args) {
+
+		int idade = 20;
+		String resposta = situacao_voto(idade);
+		
+		System.out.println(resposta);
+
+	}
+	
+	public static String situacao_voto(int idade){
+		String resultado = "";
+		
+		if(idade < 16){
+			resultado = "Não pode votar!";
+		} else if (idade >= 18 && idade < 70) {
+			resultado = "O voto é obrigatório!";
+		} else if (idade >= 16 && idade < 18) {
+			resultado = "O voto é opcional!";
+		} else {
+			// Tem 70 anos ou mais
+			resultado = "O voto é opcional!";
+		}
+		return resultado;
+	}
+
+
+}

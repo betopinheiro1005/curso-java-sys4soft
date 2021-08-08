@@ -1,0 +1,9 @@
+package com.sys4soft;
+
+public class Homem extends Humano {
+	boolean tem_barba;
+	
+	public void tem_barba(boolean tem_barba){
+		System.out.println("Tem barba: " + tem_barba + "\n");
+	}
+}

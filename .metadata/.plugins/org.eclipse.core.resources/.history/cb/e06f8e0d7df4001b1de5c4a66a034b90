@@ -1,0 +1,19 @@
+package com.sys4soft;
+
+public class TestesString {
+
+	public static void main(String[] args) {
+
+		String texto = "Frase de testes.";
+
+		for(int index =0; index < texto.length(); index++){
+			char c = texto.charAt(index);
+			System.out.prinln(c);
+		}
+
+		String fim = texto.substring(2, 10);
+		System.out.prinln(fim);
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.sys4soft;
+
+public class Mulher extends Pessoas {
+	boolean usa_battom;
+}

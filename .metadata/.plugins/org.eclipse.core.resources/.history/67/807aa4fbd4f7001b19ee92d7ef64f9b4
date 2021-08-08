@@ -1,0 +1,15 @@
+package com.sys4soft;
+
+public class SwingJFrame {
+
+//	public static void main(String[] args) {
+//		frmMenuPrincipal formulario = new frmMenuPrincipal();
+//	}
+
+	public static void main(String[] args) {
+		frmMenuPrincipal formulario = new frmMenuPrincipal("Menu Principal", new Dimension(700, 500));
+		formumlario.setVisible(true);
+	}
+	
+	
+}

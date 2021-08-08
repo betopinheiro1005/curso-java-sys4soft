@@ -1,0 +1,11 @@
+package com.sys4soft;
+
+public class GeraSocio {
+
+	public static void main(String[] args) {
+		
+		Socio s1 = new Socio("João");
+		s1.ApresentarSocio();
+	}
+
+}

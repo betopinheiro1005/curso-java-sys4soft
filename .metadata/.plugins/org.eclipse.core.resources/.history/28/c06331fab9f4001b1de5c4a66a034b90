@@ -1,0 +1,18 @@
+package com.sys4soft;
+
+public class MetodosParte2 {
+
+	public static void main(String[] args) {
+
+		String texto = "Frase de testes de strings no java";
+		String subtexto = "testes";
+		
+		if(texto.contains(subtexto)){
+			System.out.println(texto + " CONTÉM a string " + subtexto );
+		} else {
+			System.out.println(texto + " NÃO CONTÉM a string " + subtexto );
+		}
+
+	}
+
+}

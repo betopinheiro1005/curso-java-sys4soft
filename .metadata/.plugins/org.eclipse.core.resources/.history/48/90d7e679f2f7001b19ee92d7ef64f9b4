@@ -1,0 +1,27 @@
+package com.sys4soft;
+
+import java.awt.Dimension;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class frmFormulario extends JFrame {
+
+	JPanel painel;
+	
+	public frmFormulario(){
+		super("Formulário de Testes - Swing Components");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLayout(null);
+		
+		// JPanel
+		painel = new JPanel();
+		painel.setPreferredSize(new Dimension(600,400));
+		add(painel);
+		pack();
+		
+		setVisible(true);
+		
+	}
+	
+}

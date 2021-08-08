@@ -1,0 +1,28 @@
+package com.sys4soft;
+
+import java.awt.GridLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class SwingNoLayout {
+
+	public static void main(String[] args) {
+
+		// criar a janela JFrame
+		JFrame janela = new JFrame("Sem Layout");
+		janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		janela.setSize(500, 300);
+		
+		// comandos
+		JButton cmd1 = new JButton("Comando 1");
+		cmd1.setBounds(10, 10, 120, 30);
+		
+		janela.setLayout(null);
+		janela.add(cmd1);
+		janela.setVisible(true);
+
+	}
+
+}

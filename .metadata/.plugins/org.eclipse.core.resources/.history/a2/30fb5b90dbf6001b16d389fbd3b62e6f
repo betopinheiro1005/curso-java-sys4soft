@@ -1,0 +1,14 @@
+package com.sys4soft;
+
+import java.util.Arrays;
+
+public class MetodoOrdenarArrayInt {
+
+		public static int[] OrdemAsc(int[] array_int){
+			int[] array_int_asc = new int[array_int.length];
+			Arrays.sort(array_int);
+			return array_int;
+		}
+
+
+}

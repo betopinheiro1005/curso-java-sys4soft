@@ -1,0 +1,31 @@
+package com.sys4soft;
+
+import java.awt.Dimension;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class frmMenuPrincipal extends JFrame {
+	
+//	public frmMenuPrincipal(){
+//		// definir o título do formulário
+//		super("Menu Principal");
+//		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//		setSize(500, 300);
+//		setVisible(true);
+//	}
+
+	JButton cmd_sair;
+	JButton cmd_ajuda;
+	
+	public frmMenuPrincipal(String titulo, Dimension dimensao){
+		// definir o título do formulário
+		super(titulo);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setSize(dimensao);
+		setLayout(null);
+		
+		
+	}
+	
+}

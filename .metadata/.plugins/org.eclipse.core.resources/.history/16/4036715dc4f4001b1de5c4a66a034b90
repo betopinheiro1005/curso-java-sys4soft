@@ -1,0 +1,27 @@
+package com.sys4soft;
+
+public class Pets {
+
+	public static void main(String[] args) {
+
+		Animal pet_1 = new Animal();
+		pet_1.nome = "Fred";
+		pet_1.especie = "gato";
+		pet_1.sexo = "macho";
+		
+		Animal pet_2 = new Animal();
+		pet_2.nome = "Silloeh";
+		pet_2.especie = "cachorro";
+		pet_2.sexo = "femea";
+		
+		System.out.println("Nome: " + pet_1.nome + " - " +
+							"Espécie: " + pet_1.especie + " - " +
+							"Sexo: " + pet_1.sexo);
+
+		System.out.println("Nome: " + pet_2.nome + " - " +
+				"Espécie: " + pet_2.especie + " - " +
+				"Sexo: " + pet_2.sexo);
+		
+	}
+
+}

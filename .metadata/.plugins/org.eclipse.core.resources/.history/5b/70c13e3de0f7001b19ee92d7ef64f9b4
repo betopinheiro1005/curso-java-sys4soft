@@ -1,0 +1,21 @@
+package com.sys4soft;
+
+import javax.swing.JFrame;
+
+public class frmMenu extends JFrame {
+	
+	public frmMenu(){
+		super("Menu");
+		int largura = 500;
+		int altura = 300;
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setSize(largura, altura);
+		
+		// centralizar menu
+		setLocationRelativeTo(null);
+		
+		setVisible(true);
+		
+	}
+
+}
