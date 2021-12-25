@@ -1,9 +1,7 @@
 # Curso de Java  
 ## Sys4soft (João Ribeiro)  
 
-### Link dos vídeos  
-<https://www.youtube.com/watch?v=Hn3FPTNbjHA&list=PLXik_5Br-zO-9NPaurIpUFfjrhJlESJ6R>
-
+### [Vídeos do curso](https://www.youtube.com/watch?v=Hn3FPTNbjHA&list=PLXik_5Br-zO-9NPaurIpUFfjrhJlESJ6R)
 
 ### Lista de aulas  
 
